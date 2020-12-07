@@ -8,10 +8,9 @@
       <label>E-PLA White</label>
     </name>
     <version>8</version>
-    <description>Made in Sweden</description>
+    <description>Print temperature: 205-220 degrees. Made in Sweden</description>
     <adhesion_info>Heated bed: No (or maximum 60 degrees print bed temperature).</adhesion_info>
     <color_code>#ffffff</color_code>
-    <GUID>b12b1895-470e-4314-82d5-532106626fce</GUID>
   </metadata>
   <properties>
     <density>1.24</density>
@@ -21,8 +20,8 @@
     <setting key="standby temperature">175.0</setting>
     <setting key="print temperature">210.0</setting>
     <setting key="adhesion tendency">0</setting>
-    <setting key="retraction speed">60.0</setting>
-    <setting key="retraction amount">2.5</setting>
-    <setting key="heated bed temperature">60.0</setting>
+    <setting key="retraction speed">35.0</setting>
+    <setting key="retraction amount">5.5</setting>
+    <setting key="heated bed temperature">50.0</setting>
   </settings>
 </fdmmaterial>
