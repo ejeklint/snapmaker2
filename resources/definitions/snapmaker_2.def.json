@@ -18,8 +18,26 @@
     },
     "name": "Snapmaker 2.0",
     "overrides": {
+        "adhesion_type": {
+            "default_value": "none"
+        },
+        "alternate_extra_perimeter": {
+            "default_value": true
+        },
+        "bottom_skin_expand_distance": {
+            "default_value": 1.2
+        },
+        "bottom_skin_preshrink": {
+            "default_value": 1.2
+        },
         "bottom_thickness": {
             "default_value": "top_bottom_thickness"
+        },
+        "brim_line_count": {
+            "default_value": 20
+        },
+        "brim_width": {
+            "default_value": 8
         },
         "cool_fan_speed": {
             "default_value": 100,
@@ -34,8 +52,21 @@
             "maximum_value": 100,
             "value": 100
         },
+        "default_material_print_temperature": {
+            "default_value": "material_print_temperature",
+            "maximum_value": 275
+        },
+        "expand_skins_expand_distance": {
+            "default_value": 1.2
+        },
+        "filter_out_tiny_gaps": {
+            "default_value": true
+        },
         "gantry_height": {
             "value": 35
+        },
+        "initial_layer_line_width_factor": {
+            "default_value": 100
         },
         "machine_acceleration": {
             "default_value": 750,
@@ -61,15 +92,19 @@
             "value": true
         },
         "machine_max_acceleration_e": {
+            "maximum_value": 1000,
             "value": 1000
         },
         "machine_max_acceleration_x": {
+            "maximum_value": 1000,
             "value": 1000
         },
         "machine_max_acceleration_y": {
+            "maximum_value": 1000,
             "value": 1000
         },
         "machine_max_acceleration_z": {
+            "maximum_value": 1000,
             "value": 1000
         },
         "machine_start_gcode": {
@@ -77,6 +112,15 @@
         },
         "machine_use_extruder_offset_to_offset_coords": {
             "default_value": true
+        },
+        "magic_mesh_surface_mode": {
+            "default_value": "normal"
+        },
+        "magic_spiralize": {
+            "default_value": false
+        },
+        "material_bed_temp_prepend": {
+            "default_value": false
         },
         "material_bed_temperature": {
             "maximum_value": 120
@@ -89,9 +133,15 @@
             "maximum_value": 275,
             "value": "material_print_temperature - 5"
         },
+        "material_flow": {
+            "default_value": 100
+        },
         "material_initial_print_temperature": {
             "maximum_value": 275,
-            "value": "material_print_temperature + 5"
+            "value": "material_print_temperature"
+        },
+        "material_print_temp_prepend": {
+            "default_value": false
         },
         "material_print_temperature": {
             "maximum_value": 275
@@ -100,16 +150,40 @@
             "maximum_value": 275,
             "value": "material_print_temperature + 5"
         },
+        "min_skin_width_for_expansion": {
+            "default_value": 0
+        },
+        "optimize_wall_printing_order": {
+            "default_value": true
+        },
+        "outer_inset_first": {
+            "default_value": false
+        },
+        "raft_margin": {
+            "default_value": 15
+        },
+        "retract_at_layer_change": {
+            "default_value": false
+        },
         "retraction_amount": {
             "default_value": 5
         },
+        "retraction_combing": {
+            "default_value": "all"
+        },
         "retraction_enable": {
             "default_value": true
+        },
+        "retraction_extrusion_window": {
+            "default_value": 5
         },
         "retraction_hop": {
             "default_value": 0.8
         },
         "retraction_hop_enabled": {
+            "default_value": false
+        },
+        "retraction_hop_only_when_collides": {
             "default_value": true
         },
         "retraction_min_travel": {
@@ -124,6 +198,18 @@
         "retraction_speed": {
             "default_value": 60
         },
+        "skin_outline_count": {
+            "default_value": 0
+        },
+        "skin_preshrink": {
+            "default_value": 1.2
+        },
+        "skirt_brim_speed": {
+            "default_value": 18
+        },
+        "skirt_line_count": {
+            "default_value": 1
+        },
         "speed_print": {
             "default_value": 60
         },
@@ -133,14 +219,62 @@
         "speed_travel_layer_0": {
             "default_value": 40
         },
+        "support_angle": {
+            "default_value": 50
+        },
+        "support_enable": {
+            "default_value": false
+        },
+        "support_infill_rate": {
+            "default_value": 15
+        },
+        "support_initial_layer_line_distance": {
+            "default_value": 2.6666666666666665
+        },
+        "support_line_distance": {
+            "default_value": 2.6666666666666665
+        },
+        "support_pattern": {
+            "default_value": "zigzag"
+        },
+        "support_type": {
+            "default_value": "everywhere"
+        },
+        "switch_extruder_retraction_amount": {
+            "default_value": 16
+        },
         "top_bottom_thickness": {
             "default_value": 0.72
+        },
+        "top_skin_expand_distance": {
+            "default_value": 1.2
+        },
+        "top_skin_preshrink": {
+            "default_value": 1.2
         },
         "top_thickness": {
             "default_value": "top_bottom_thickness"
         },
+        "travel_compensate_overlapping_walls_0_enabled": {
+            "default_value": true
+        },
+        "travel_compensate_overlapping_walls_enabled": {
+            "default_value": true
+        },
+        "travel_compensate_overlapping_walls_x_enabled": {
+            "default_value": true
+        },
+        "wall_line_count": {
+            "default_value": 3
+        },
         "wall_thickness": {
             "default_value": 1.2
+        },
+        "z_seam_corner": {
+            "default_value": "hide seam"
+        },
+        "z_seam_type": {
+            "default_value": "sharpest co"
         }
     },
     "version": 2
