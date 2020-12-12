@@ -270,6 +270,9 @@
         "wall_thickness": {
             "default_value": 1.2
         },
+        "xy_offset_layer_0": {
+            "default_value": 0.15
+        },
         "z_seam_corner": {
             "default_value": "hide seam"
         },
