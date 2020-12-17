@@ -1,6 +1,8 @@
-# Ultimaker Cura settings for Snapmaker 2 model A350
+# Ultimaker Cura settings for Snapmaker 2 A350
 
 ## Installation
 
-Mac: ctrl-click on Ultimaker Cura application and select "Show package content". Copy the downloaded ... into ...
+TODO
+
+Mac: Go to ~/Library/cura/4.8/ and Copy the downloaded files into respective folders ...
 
